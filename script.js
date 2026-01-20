@@ -6,9 +6,8 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "HOREEE, tidak bisa di cancel blebleble!";
+  gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
   btnGroup.style.display = "none";
-  gif.src =
-    "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
@@ -59,6 +58,7 @@ noBtn.addEventListener("mouseover", () => {
 //   noBtn.style.left = randomX + "px";
 //   noBtn.style.top = randomY + "px";
 // });
+
 
 
 
