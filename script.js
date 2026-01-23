@@ -37,9 +37,10 @@ yesBtn.addEventListener("click", () => {
 });
 
 noBtn.addEventListener("click", () => {
-  question.innerHTML = "yahhh :(( coba pilih lagi deh hehehe";
+  question.innerHTML = "yahhh :(( coba sekarang pilih tombolnya lagi deh hehehe";
   gif.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTB3MnFkazZ2djVkZXh0and0ZGd1bjI4bW91azQxZmtmajc1MDdyeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/otC3E9VpgzSdEDUglZ/giphy.gif";
 });
+
 
 
 
